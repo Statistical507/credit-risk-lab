@@ -12,8 +12,8 @@ default_rate = calculate_default_rate(
 
 print(f"Default rate: {default_rate:.2%}")
 
-defaults = 0
-cure_accounts = 0
+defaults = -10
+cure_accounts = 5
 
 cure_rate = calculate_cure_rate(
     defaults,
